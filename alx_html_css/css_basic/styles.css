@@ -23,3 +23,8 @@ aside {
   flex: 1;
   overflow-y: auto; /* Enables vertical scroll 
 }*/
+
+.logo {
+  font-size: 3rem; /* Makes it look like a logo */
+  padding-right: 1rem;
+}
