@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+ /* height: 100vh; /* Optional: makes it take full viewport height */
+  /*margin: 0;      /* Removes default margin */
+}
+
+/* 2. Make <main> a flex container in a row layout */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* Allows it to grow and shrink as needed */
+}
+
+/* 3. <article> should take 2/3 of the space 
+article {
+  flex: 2;
+  overflow-y: auto; /* Enables vertical scroll 
+}
+
+/* 4. <aside> should take 1/3 of the space 
+aside {
+  flex: 1;
+  overflow-y: auto; /* Enables vertical scroll 
+}*/
