@@ -1,0 +1,210 @@
+/* background image for header and the 1st section */
+.b_image {
+    background-image: url("Object.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; /* Creates parallax effect - optional 
+    background-color: brown; 
+    padding-bottom: 10px; */
+    
+  
+}
+
+
+/* Reset default margins and padding */
+body {
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between; /* Pushes logo left and menu right */
+  align-items: left; /* Vertically centers items */
+  padding: 1rem 2rem; /* Adjust padding as needed */
+  max-width: 1200px; /* Optional: limits width */
+  margin: 0 auto; /* Centers the nav if max-width is set */
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
+}
+
+/* Logo styling */
+.logo_position {
+  display:contents;
+  align-items: ;
+}
+
+.logo_position img {
+  float: left;
+  height: 40px; /* Adjust logo size as needed */
+  width: auto;
+}
+
+/* Navigation menu */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem; /* Space between menu items */
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #fff; /* Text color */
+  font-weight: 500;
+  transition: color 0.3s;
+  white-space: nowrap; /* Prevents text wrapping */
+  
+}
+
+.nav-menu li a:hover {
+  color: #0066cc; /* Hover color */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .logo_position {
+    margin-bottom: 1rem;
+    
+  }
+  
+  .nav-menu {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    
+  }
+}
+
+div.headerr{
+  padding: 0px;
+  color: white;
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
+  text-align: center;
+  font-size: 20px;
+}
+/* Header container */
+.headerr {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* "Get schooled" heading */
+.school {
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
+  font-size: 100px;
+  color: #white;
+  margin-bottom: 0.5rem;
+}
+
+/* Smiles/Grin/Laugh text */
+.sm span {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Button styles (as above) */
+.headerr button {
+  margin-top: 4rem;
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 10px;
+  font-weight: 100;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 12px 15px rgba(0,0,0,0.1);
+   font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
+  
+}
+
+.learn {
+  font-weight: 700;       /* Makes it bold */
+  color: #C271FF;        /* Orange color - change to your preferred color */
+
+
+}
+h2 {
+  color: white;
+  text-align: center;
+padding-top: 50px;
+
+  
+}
+div.padd {
+ 
+  text-align: center;
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
+  
+}
+
+/* Container for all profile cards */
+.profiles-container {
+  display: flex;                /* Enables flexbox */  /*or put horizantally*/
+  justify-content: center;      /* Centers cards horizontally */
+  gap: 30px;                    /* Space between cards */
+  flex-wrap: wrap;              /* Allows wrapping on small screens */
+  padding: 20px 0;              /* Vertical padding */
+  
+  
+}
+
+/* Individual profile card styling */
+.profile-card {
+  width: 200px;                 /* Fixed width for each card */
+  text-align: center;           /* Centers content inside cards */
+  
+  border-radius: 8px;           /* Rounded corners */
+  padding: 20px;                /* Inner spacing */
+  
+}
+
+/* Image styling */
+.profile-card img {
+  width: 120px;                 /* Fixed image size */
+  height: 120px;                /* Maintains aspect ratio */
+  border-radius: 50%;           /* Circular images */
+  object-fit: cover;            /* Ensures images fill the space */
+  margin-bottom: 15px;          /* Space below image */
+}
+
+/* Text styling */
+.profile-card h3 {
+  margin: 10px 0;               /* Spacing around name */
+  font-size: 1.2rem;            /* Slightly larger name */
+  color: #333;                  /* Dark text */
+}
+
+.profile-card p {
+  color: #666;                  /* Lighter text for description */
+  font-size: 0.9rem;            /* Smaller text */
+  line-height: 1.4;             /* Better readability */
+}
+
+/* Set white color for all text elements */
+.profiles-container,
+.profiles-container h3,
+.profiles-container p,
+section > div {
+  color: white;
+}
+
+.profiles-container p,
+section > div {
+  font-style: italic;
+}
