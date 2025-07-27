@@ -277,3 +277,54 @@ h4{
   padding-top: 20px;
   
 }
+
+/*membership section*/
+
+.cont{
+  background-color: #071629;
+
+}
+
+div.free_register,p{
+  display: flex;
+  color: wheat;
+  font-size: small;
+  margin-bottom: 20px;
+  
+  
+  
+}
+
+
+
+.free{
+  color: #C271FF;
+  
+  margin-bottom: 20px;
+
+}
+
+.blak{
+  color: white;
+  font-weight: normal;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.cont button {
+  margin: 4rem auto; /* Top/Bottom: 4rem | Left/Right: auto (centers horizontally) */
+  display: block;    /* Required for margin:auto to work */
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 10px;
+  font-weight: 100;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 12px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif, Source Sans Pro;
+  
+}
