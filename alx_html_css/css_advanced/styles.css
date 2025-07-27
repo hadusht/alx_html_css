@@ -134,11 +134,12 @@ div.headerr{
 }
 
 .learn {
-  font-weight: 700;       /* Makes it bold */
+  font-weight: bolder;       /* Makes it bold */
   color: #C271FF;        /* Orange color - change to your preferred color */
-
+  
 
 }
+
 h2 {
   color: white;
   text-align: center;
@@ -200,11 +201,79 @@ div.padd {
 .profiles-container,
 .profiles-container h3,
 .profiles-container p,
-section > div {
+section.div {
   color: white;
 }
 
 .profiles-container p,
 section > div {
   font-style: italic;
+}
+
+
+
+
+.tutorials{
+  background-color: #C271FF;
+  display: flex;                /* Enables flexbox */  /*or put horizantally*/
+  justify-content: center;      /* Centers cards horizontally */
+  gap: 20px;                    /* Space between cards */
+  flex-wrap: wrap;              /* Allows wrapping on small screens */
+  padding: 40px 90px; 
+  color  : white;
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source
+  padding-left: 20px; /* Indentation */
+}
+
+div.video {
+  display: flex;                /* Enables flexbox */  /*or put horizantally*/
+      /* Centers cards horizontally */
+  gap: 0px;                    /* Space between cards */
+               /* Allows wrapping on small screens */
+  padding: 30px;    
+  color: black;          /* Vertical padding */
+  margin-top: 30px;
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
+  text-align: center;
+  font-weight: normal;
+  font-size: small;
+  text-align: left;
+  justify-content: center;
+}
+
+
+.popular1{
+  color: #C271FF;
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
+  font-weight: bold;
+
+}
+.most1{
+  color: black;
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
+  font-weight: normal;
+
+}
+
+div.phili{
+  display: flex;
+  color: #C271FF;
+  
+  
+}
+h4{
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.star, p{
+  display: flex;
+  color: #C271FF;
+  padding-left: 40px;
+  
+}
+
+.star{
+  
+  padding-top: 20px;
+  
 }
