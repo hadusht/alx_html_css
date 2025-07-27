@@ -4,23 +4,13 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /*background-attachment: fixed; /* Creates parallax effect - optional 
-    background-color: brown; 
-    padding-bottom: 10px; */
-    
   
 }
-
-
 /* Reset default margins and padding */
 body {
   margin: 0;
   padding: 0;
-  
-  
 }
-
-
 /* Navigation bar */
 nav {
   display: flex;
@@ -58,8 +48,7 @@ nav {
   color: #fff; /* Text color */
   font-weight: 500;
   transition: color 0.3s;
-  white-space: nowrap; /* Prevents text wrapping */
-  
+  white-space: nowrap; /* Prevents text wrapping */  
 }
 
 .nav-menu li a:hover {
@@ -74,15 +63,13 @@ nav {
   }
   
   .logo_position {
-    margin-bottom: 1rem;
-    
+    margin-bottom: 1rem;    
   }
   
   .nav-menu {
     flex-direction: column;
     gap: 0.5rem;
     width: 100%;
-    
   }
 }
 
@@ -115,7 +102,6 @@ div.headerr{
   color: #fff;
   font-weight: bold;
 }
-
 /* Button styles (as above) */
 .headerr button {
   margin-top: 4rem;
@@ -129,29 +115,23 @@ div.headerr{
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 12px 15px rgba(0,0,0,0.1);
-   font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
-  
+   font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;  
 }
 
 .learn {
   font-weight: bolder;       /* Makes it bold */
-  color: #C271FF;        /* Orange color - change to your preferred color */
-  
-
+  color: #C271FF;        /* Orange color - change to your preferred color */ 
 }
 
 h2 {
   color: white;
   text-align: center;
-padding-top: 50px;
-
-  
+padding-top: 50px;  
 }
-div.padd {
- 
+
+div.padd { 
   text-align: center;
-  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
-  
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;  
 }
 
 /* Container for all profile cards */
@@ -161,18 +141,13 @@ div.padd {
   gap: 30px;                    /* Space between cards */
   flex-wrap: wrap;              /* Allows wrapping on small screens */
   padding: 20px 0;              /* Vertical padding */
-  
-  
 }
-
 /* Individual profile card styling */
 .profile-card {
   width: 200px;                 /* Fixed width for each card */
-  text-align: center;           /* Centers content inside cards */
-  
+  text-align: center;           /* Centers content inside cards */  
   border-radius: 8px;           /* Rounded corners */
-  padding: 20px;                /* Inner spacing */
-  
+  padding: 20px;                /* Inner spacing */  
 }
 
 /* Image styling */
@@ -210,9 +185,6 @@ section > div {
   font-style: italic;
 }
 
-
-
-
 .tutorials{
   background-color: #C271FF;
   display: flex;                /* Enables flexbox */  /*or put horizantally*/
@@ -227,10 +199,8 @@ section > div {
 
 div.video {
   display: flex;                /* Enables flexbox */  /*or put horizantally*/
-      /* Centers cards horizontally */
   gap: 0px;                    /* Space between cards */
-               /* Allows wrapping on small screens */
-  padding: 30px;    
+e  padding: 30px;    
   color: black;          /* Vertical padding */
   margin-top: 30px;
   font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
@@ -241,26 +211,22 @@ div.video {
   justify-content: center;
 }
 
-
 .popular1{
   color: #C271FF;
   font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
   font-weight: bold;
-
 }
 .most1{
   color: black;
   font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
   font-weight: normal;
-
 }
 
 div.phili{
   display: flex;
-  color: #C271FF;
-  
-  
+  color: #C271FF; 
 }
+
 h4{
   padding-top: 40px;
   padding-left: 20px;
@@ -268,40 +234,29 @@ h4{
 .star, p{
   display: flex;
   color: #C271FF;
-  padding-left: 40px;
-  
+  padding-left: 40px;  
 }
 
 .star{
   
-  padding-top: 20px;
-  
+  padding-top: 20px;  
 }
 
 /*membership section*/
-
 .cont{
   background-color: #071629;
-
 }
 
 div.free_register,p{
   display: flex;
   color: wheat;
   font-size: small;
-  margin-bottom: 20px;
-  
-  
-  
+  margin-bottom: 20px;    
 }
 
-
-
 .free{
-  color: #C271FF;
-  
+  color: #C271FF;  
   margin-bottom: 20px;
-
 }
 
 .blak{
@@ -311,20 +266,105 @@ div.free_register,p{
   margin-bottom: 20px;
 }
 
-
 .cont button {
   margin: 4rem auto; /* Top/Bottom: 4rem | Left/Right: auto (centers horizontally) */
-  display: block;    /* Required for margin:auto to work */
+  display:grid;    /* Required for margin:auto to work */
   background-color: #C271FF;
   color: white;
   border: none;
   padding: 12px 24px;
   font-size: 10px;
-  font-weight: 100;
   border-radius: 30px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 12px 15px rgba(0,0,0,0.1);
-  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif, Source Sans Pro;
+  cursor: pointer; 
+}
+/*FAQ */
+.faq{
+  color: black;
+  font-weight: normal;
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif,Source Sans Pro;
   
 }
+
+div.how {
+  display: flex;                /* Enables flexbox */  /*or put horizantally*/
+  justify-content: center;      /* Centers cards horizontally */
+  gap: 30px;                    /* Space between cards */
+  flex-wrap: wrap;              /* Allows wrapping on small screens */
+  padding: 20px 0;              /* Vertical padding */
+}
+
+
+
+/*footer*/
+
+/* Footer container */
+.footer-container{  
+  
+  background-color: #071629;
+
+}
+
+.logo_position{
+  display: flex;
+
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between; /* logo left, social right */
+  align-items: center;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo styling */
+#log {
+  display: flex;
+  align-items: center;
+}
+
+#log img {
+  height: 40px; /* Adjust as needed */
+}
+
+/* Social media icons container */
+.foot > div {
+  display: flex;
+  gap: 1rem; /* Space between icons */
+}
+
+/* Social media icons */
+.fa-brands {
+  font-size: 1.5rem;
+  color:#fff /* Adjust color */
+  transition: color 0.3s ease;
+}
+
+.fa-brands:hover {
+  color: #C271FF; /* Purple hover effect */
+}
+
+/* Copyright text 
+.foot + p {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-top: 1px solid #eee;
+}  */
+
+.pp {
+  display: block; /* Turns the span into a block-level element */
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
