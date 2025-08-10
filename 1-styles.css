@@ -1,0 +1,20 @@
+
+/* Mobile styles (applies when screen ≤ 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px; /* Tighter padding on mobile */
+  }}
+
+body{
+    font-family:;
+}
+.centered-section{
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.profiles-container{
+    display: flex;
+    justify-content: center;
+}
