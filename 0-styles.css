@@ -1,0 +1,90 @@
+
+/* Mobile styles (applies when screen ≤ 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px; /* Tighter padding on mobile */
+  }}
+
+/* Reset default margins/padding */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+  .body1{
+    background-image: url("images/headphones_hero_1.jpg");
+    color: white;
+        
+  }
+  /* Hover & Active states */
+a:hover,
+a:active {
+  color: #FF6565; /* Red color */
+}
+
+.head-container{
+  display: flex;
+  justify-content: space-between; /* Pushes logo left & nav right */
+  align-items:center; /* Vertically centers items */
+  
+
+}
+
+.container {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px; /* Optional: Adds space on small screens */
+  text-align:center;
+  
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  justify-content: flex-end;
+  gap: 3rem; /* Space between menu items */
+   
+}
+
+.nav-menu a {
+  color: aliceblue;
+  text-decoration: none;
+  
+  
+}
+
+/* Logo styling */
+.logo_position {
+  padding-left: 20px;
+
+}
+
+body h2{
+  text-align:center;
+  margin-top: 10rem;
+
+}
+
+pre{
+  line-height: 1.5;
+  margin-top:3rem;
+}
+
+
+button {
+  background-color:#FF6565;   /* Red background */
+  color: white;           /* White text */
+  padding: 10px 20px;     /* Button padding */
+  border: none;           /* Remove default border */
+  border-radius: 20px;     /* Optional: Rounded corners */
+  cursor: pointer;        /* Show pointer cursor on hover */
+}
+
+/* Hover effect (optional) */
+button:hover {
+  background-color: darkred; /* Darker red on hover */
+  opacity: 0.9;
+}
