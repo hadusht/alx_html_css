@@ -27,6 +27,7 @@ a:active {
   justify-content: space-between; /* Pushes logo left & nav right */
   align-items:center; /* Vertically centers items */
   
+  
 
 }
 
@@ -58,7 +59,8 @@ a:active {
 
 /* Logo styling */
 .logo_position {
-  padding-left: 20px;
+  
+ padding: 0%;
 
 }
 
